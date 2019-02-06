@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 5 - Advanced HTML</title>
+</head>
+<body>
+	<header id="header">
+		<!-- Here's my header tag. :) -->
+		<h1>Week 5 - Advanced HTML</h1>
+		<!-- this is identified as primary navigation -->
+		<nav id="main-navigation" class="navigation">
+		<ul>
+			<!-- class attribute is used to identify elements as a group -->
+			<!-- class may repeat but list (or element id's) cannot repeat -->
+			<li id="main-li-1" class="main-li">
+				<a href="https://google.ca" title="google">Link 1</a></li>
+			<li id="main-li-2" class="main-li">
+				<a href="https://lynda.com" title="lynda">Link 2</a></li>
+		</ul>
+	</nav>
+	</header>
+	<main>
+		<!-- Here's my main tag. :) -->
+		<section id="main-section-2" class="main-section">
+			<article>
+				<p>This is an article.</p>
+			</article>
+			<aside>
+				<!-- this is identified as secondary navigation -->
+				<nav id ="sub-navigation" class="navigation">
+					<ul>
+						<li>
+							<a href="https://google.ca" title="google">Link 1</a></li>
+						<li>
+							<a href="https://lynda.com" title="lynda">Link 2</a></li>
+					</ul>
+				</nav>
+			</aside>
+		</section>
+		<!-- one element can have multiple classes, different classes are seperated by a space
+		Example: class=main-section container section green-text -->
+		<section id="main-section-2" class="main-section">
+			<article>
+				<p>This is a paragraph in the second section.</p>
+			</article>
+		</section>
+		<section id="images" class="main-section">
+			<h2>Images</h2>
+			<article>
+				<!-- image tag is self contained -->
+				<img src="img/image-1.jpg" width="600" height="400">
+			</article>
+		</section>
+	</main>
+	<footer>
+		<!-- Here's my footer tag. :) -->
+	</footer>
+</body>
+</html>
