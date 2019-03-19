@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assignment 3 - Form</title>
+	<style>
+	</style>
+</head>
+<body>
+	<div class="wrapper" align="center">
+		<section>
+			<!-- Here is my form! -->
+			<form id="htmlForm" action="somepage.php" method="get">
+				<div>
+					<!-- First Name -->
+					<label for="firstName">First Name:</label>
+					<input type="text" name="firstName" id="firstName" placeholder="First Name">
+				</div>
+				<div>
+					<!-- Last Name -->
+				</div>
+					<label for="lastName">Last Name:</label>
+					<input type="text" name="lastName" id="lastName" placeholder="Last Name">
+				<div>
+					<!-- E-mail -->
+					<label for="email">E-Mail:</label>
+					<input type="email" name="email address" id="email" placeholder="E@Mail.com">
+				</div>
+				<div>
+					<!-- Password -->
+					<label for="password">Password:</label>
+					<input type="password" name="pwd" id="password" placeholder="*******">
+				</div>
+				<div>
+					<!-- Introductory Text -->
+					<label for="introductory-text">Introduction:</label>
+					<textarea id="introduction" name="introductory_text" placeholder="Please share your introduction here!"></textarea>
+				</div>
+				<div>
+					<!-- Date of Birth -->
+					<label for="date">Date of Birth:</label>
+					<input type="date" name="date" id="date" placeholder="MM/DD/YYYY">
+				</div>
+				<div>
+					<!-- Mobile Numer -->
+					<label for="Mobile">Mobile number:</label>
+					<input type="number" name="mobile-number" id="mobile-number" placeholder="(XXX)-XXX-XXXX">
+				</div>
+				<div>
+					<!-- Gender -->
+					<label for="Gender">Gender:</label>
+					<input type="radio" name="gender" value="male" checked> Male<br>
+					<input type="radio" name="gender" value="female"> Female<br>
+					<input type="radio" name="gender" value="other"> Other  
+				</div>
+				<div>
+					<!-- Address -->
+					<label for="Address">Address:</label>
+					<input type="text" name="address" placeholder="Apartment No. Street Name.">
+				</div>
+				<div>
+					<!-- City -->
+					<label for="City">City:</label>
+					<input type="text" name="city" id="city" placeholder="City Name">
+				</div>
+				<div>
+					<!-- Province - Dropdown -->
+					<!-- ***********TO BE EDITED!!!!!!!************* -->
+				</div>
+				<div>
+					<!-- Country - Dropdown -->
+					<!-- ***********TO BE EDITED!!!!!!!************* -->
+				</div>
+				<div>
+					<!-- Postal Code -->
+					<label for="Postal-code">Postal Code:</label>
+					<input type="text" name="postal-code" id="postal-code" placeholder="XXX-XXX">
+				</div>
+					<fieldset style="width:300px">
+						<div>
+							<!-- Hobbies/Interests - Check Boxes -->
+							<label for="Hobbies-interests">Hobbies/Interests:</label>
+							<input type="checkbox" name="hobby1" value="games"> Playing Video Games<br>
+							<input type="checkbox" name="hobby2" value="Art"> Making Art<br>
+							<input type="checkbox" name="hobby3" value="Reading"> Reading and/or writing<br>
+							<input type="checkbox" name="hobby4" value="sports"> Sports<br>
+							<input type="checkbox" name="interest1" value="Nature"> Nature walks<br>
+							<input type="checkbox" name="interest2" value="STEM"> STEM<br>
+							<input type="checkbox" name="interest3" value="cats" checked> Cats<br>
+						</div>
+					</fieldset>
+				<div>
+					<!-- Website URL -->
+					<label for="website">Website URL:</label>
+					<input type="URL" name="website" placeholder="http://www.url.com">
+				</div>
+				<!-- Form reset button. It's clickable, and works! Yay! -->
+			  	<button type="reset" value="Reset">Reset</button>
+			  	<!-- Form submit button -->
+			  	<button type="submit" form="htmlForm" value="Submit">Submit</button>
+			</form>
+		</section>
+</body>
+</html>
