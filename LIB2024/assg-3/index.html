@@ -2,13 +2,25 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Assignment 3 - Form</title>
+	<meta name="author" content="Sarah McCulley">
+	<title>Assignment 3 - HTML Form</title>
 	<style>
+		body {
+			background-color: lavender;
+			font-family: verdana;
+		}
+		h1   {
+			color: purple;
+		}
+		input {
+			background-color: violet;
+		}
 	</style>
 </head>
 <body>
-	<div class="wrapper" align="center">
+	<div id="container" class="wrapper" align="center">
 		<section>
+			<h1>Unicorn Appreciation Society Registration</h1>
 			<!-- Here is my form! -->
 			<form id="htmlForm" action="somepage.php" method="get">
 				<div>
@@ -79,14 +91,14 @@
 					<fieldset style="width:300px">
 						<div>
 							<!-- Hobbies/Interests - Check Boxes -->
-							<label for="Hobbies-interests">Hobbies/Interests:</label>
+							<label for="Hobbies-interests">Hobbies/Interests:</label><br>
 							<input type="checkbox" name="hobby1" value="games"> Playing Video Games<br>
 							<input type="checkbox" name="hobby2" value="Art"> Making Art<br>
 							<input type="checkbox" name="hobby3" value="Reading"> Reading and/or writing<br>
 							<input type="checkbox" name="hobby4" value="sports"> Sports<br>
 							<input type="checkbox" name="interest1" value="Nature"> Nature walks<br>
 							<input type="checkbox" name="interest2" value="STEM"> STEM<br>
-							<input type="checkbox" name="interest3" value="cats" checked> Cats<br>
+							<input type="checkbox" name="interest3" value="unicorns" checked> Unicorns<br>
 						</div>
 					</fieldset>
 				<div>
