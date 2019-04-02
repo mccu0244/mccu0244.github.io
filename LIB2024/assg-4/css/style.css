@@ -1,0 +1,44 @@
+	/*Colors - Blue: 6dcff6 Green: 7CC576*/
+	body {
+		background-color: #7CC576;
+		font-family: verdana;
+	}
+
+	h1 {
+		color: black;
+		font-family: verdana;
+	}
+
+	.btn-group button {
+		background-color: #6dcff6;
+		font-family: verdana;
+		font-size: 16px;
+		font-weight: bold;
+		border: none;
+		border-radius: 4px;
+		color: black;
+		padding: 14px 40px;
+		display: inline-block;
+	}
+
+/*To be edited!*/
+		article {
+			font-weight: normal;
+			width: 100%;
+			background-color: white;
+			width: 60%;
+			height: auto;
+		}
+
+		table, th, td {
+			font-weight: normal;
+            background: white;
+            opacity: 1;
+            width: 100%;
+            text-align: left;
+         }
+/*To be edited!*/
+
+/*Sidebar*/
+
+/*Sidebar end*/
