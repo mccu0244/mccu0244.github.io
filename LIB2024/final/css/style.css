@@ -1,0 +1,109 @@
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+/*font squirrel time!*/
+@font-face {
+    font-family: 'trashhandregular';
+    src: url('TrashHand-webfont.eot');
+    src: url('TrashHand-webfont.eot?#iefix') format('embedded-opentype'),
+         url('TrashHand-webfont.woff2') format('woff2'),
+         url('TrashHand-webfont.woff') format('woff'),
+         url('TrashHand-webfont.ttf') format('truetype'),
+         url('TrashHand-webfont.svg#trashhandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*bye squirrel!*/
+
+/*Loader*/
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+/*Loader animation end*/
+ 
+
+h2 {
+  color: #72ABAD;
+  font-family: 'trashhandregular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3 {
+  color: #72ABAD;
+  font-family: verdana;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #72ABAD;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div {
+  max-width: 650px;
+  margin: 50px;
+}
