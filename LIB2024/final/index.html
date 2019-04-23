@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-<html>
 <head>
 	<!-- meta info -->
 	<meta charset="utf-8">
 	<meta name="author" content="Sarah McCulley">
 	<!-- end of meta info -->
+
+	<!-- lightbox link -->
+	<!-- lightbox link end -->
+
 	<title>Final</title>
+
 	<link rel="stylesheet" type="text/css" href="css\style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- google font here -->
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Dokdo');
+	</style>
 </head>
 <body>
+	<!-- animation attempt -->
 	<div class="loader"></div>
+	<!-- animation attempt -->
 	<header>
-		<div><h2>My Logo</h2></div>
+		<div><h1>My Logo</h1></div>
 		<!-- Main nav :3 -->
 		<nav class="main-nav-container desktop-nav">
 			<ul class="main-nav clearfix">
@@ -26,21 +39,90 @@
 		<!-- Main nav end :'( -->
 	</header>
 	<main>
-		<div style="width: 100%; display: table;">
-    <div style="display: table-row">
-        <div style="width: 600px; display: table-cell;"> <h3>About</h3>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p> </div>
-        <div style="display: table-cell;"> 
-        	<!-- Image goes here. -->
-         </div>
-    </div>
-</div>
+		<!-- Background image for this div is from www.toptal.com/designers/subtlepatterns/ -->
+		<div class="div-with-bg"><h3>About</h3>
 
-		<div>
+		<!-- end of lightbox -->
+
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
+<!--         <div style="display: table-cell;"> 
+        	</div> -->
+
+		<p>
 			<h3>Schedule</h3>
-
+		</p>
+		<p>
+			<h3>Edit Profile</h3>
+		<form id="htmlForm" action="somepage.php" method="get">
+				<div>
+					<!-- First Name -->
+					<label for="firstName">First Name:</label>
+					<input type="text" name="firstName" id="firstName" placeholder="First Name">
+				</div>
+					<!-- E-mail -->
+					<label for="email">E-Mail:</label>
+					<input type="email" name="email" id="email" placeholder="E@Mail.com">
+				</div>
+				<div>
+					<!-- Address -->
+					<label for="address">Address:</label>
+					<input type="text" name="address" placeholder="Apartment No. Street Name." id="address">
+				</div>
+				<div>
+					<!-- City -->
+					<label for="city">City:</label>
+					<input type="text" name="city" placeholder="City Name" id="city">
+				</div>
+				<div>
+					<!-- Province - Dropdown -->
+					<label for="province">Province:</label>
+					<select name="province" id="province">
+					<option value="AB">Alberta</option>
+					<option value="BC">British Columbia</option>
+					<option value="MB">Manitoba</option>
+					<option value="NB">New Brunswick</option>
+					<option value="NL">Newfoundland and Labrador</option>
+					<option value="NS">Nova Scotia</option>
+					<option value="ON">Ontario</option>
+					<option value="PE">Prince Edward Island</option>
+					<option value="QC">Quebec</option>
+					<option value="SK">Saskatchewan</option>
+					<option value="NT">Northwest Territories</option>
+					<option value="NU">Nunavut</option>
+					<option value="YT">Yukon</option>
+					</select> 
+				</div>
+				<div>
+					<!-- Postal Code -->
+					<label for="postalcode">Postal Code:</label>
+					<input type="text" name="postalcode" placeholder="XXX-XXX" id="postalcode" >
+				</div>
+				<!-- Form submit button -->
+			  	<button type="submit" form="htmlForm" value="Submit">Submit</button>
+		</form>
 		</div>
 	</main>
-
+	<footer>
+		<div class="columns">
+    <div class="column"><ul class="column"><li><h5>Quick Links</h5></li><br>
+    	<li>Schedule</li><br>
+    		<li>About</li><br>
+    		<li>Portfolio</li><br>
+    		<li>Contact</li></ul></div>
+    <div class="column"><h5>Follow Us</h5><br>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-twitter"></a>
+    </div>
+    <div class="column" ><h5>Address</h5><br>
+    	1385 Woodroffe Ave.<br>
+    	Nepean, ON K2G 1V8<br>
+    	Canada
+    </div>
+	</div>
+	<div class="clear"></div>
+	</footer>
+<!-- java for lightbox -->
+<!-- <script src="dist/js/lightbox-plus-jquery.js"></script> -->
 </body>
 </html>
